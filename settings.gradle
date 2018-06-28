@@ -1,0 +1,8 @@
+rootProject.name = 'Planeta_Task'
+
+buildCache {
+    local(DirectoryBuildCache) {
+        directory = new File(rootDir, 'build-cache')
+        removeUnusedEntriesAfterDays = 30
+    }
+}
